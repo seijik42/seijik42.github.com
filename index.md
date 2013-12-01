@@ -1,46 +1,73 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 笠原 誠司
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+seijik42--at--gmail.com
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+IT周りの技術とCGに興味があります。
 
-## Update Author Attributes
+----
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+**略歴**
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+* 2013/8 - 現在   :  広告商品の開発@株式会社ミクシィ・マーケティング
+* 2012/4 - 2013/7 :  広告商品の開発@株式会社ミクシィ
+* 2012/3 :  奈良先端科学技術大学院大学／情報科学研究科  博士前期課程修了(工学)
+    * 修士論文テーマ : 日本語学習支援のための自動誤り訂正
+    * 指導教員: 松本裕治
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+----
 
-    $ rm -rf _posts/core-samples
+**会社で行っていること**
 
-Here's a sample "posts list".
+* DSP(Demand Side Platform)の開発を行っています
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+----
 
-## To-Do
+**個人的に行っていること**
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+【Digital Art】
 
+* 主にフォトリアリスティックな画像・映像を目指しています
+* 使用ソフト : Zbrush, blenderなど
+* 備忘録を[tumblr](http://seijik42.tumblr.com/)にまとめています
 
+【Traditional Art】
+
+* デッサンや油絵を書いています
+
+【英語学習】
+
+* TOEIC
+    * 独学でTOEIC900点を取得しました
+
+----
+
+**研究実績**
+
+大学院では統計的な手法を用いて、日本語学習を支援する仕組みの研究を行っていました
+
+【外部発表】
+
+国際会議 (査読あり)
+
+* Seiji Kasahara, Mamoru Komachi, Masaaki Nagata (NTT) and Yuji Matsumoto. Error Correcting Romaji-Kana Conversion for Japanese Language Education. In Proceedings of the Workshop on Text Input Methods (WTIM 2011): Short papers (oral), pp.38-42. Chiang Mai, Thailand, November 2011.
+
+国内研究会・全国大会等
+
+* 笠原誠司, 藤野拓也, 小町守, 永田昌明 (NTT), 松本裕治. 日本語学習者の誤り傾向を反映した格助詞訂正. 言語処理学会第18回年次大会論文集, pp.14-17, March 2012.
+* 笠原誠司, 小町守, 永田昌明 (NTT), 松本裕治. 日本語教育のための誤り訂正ローマ字かな変換. 情報処理学会第203回自然言語処理研究会, Vol.2011-NL203, No.4, pp.1-6, September 2011.
+
+【学外プロジェクト】
+
+* 未踏ユース
+    * [2010年度未踏ユースプロジェクト](http://www.ipa.go.jp/jinzai/mitou/2010/2010_1/youth/gaiyou/gm-1.html)に採択されました
+    * [統計的日本語校正システムchantokun](http://cl.naist.jp/chantokun/)
+
+----
+
+**その他の活動**
+
+* OpenRTB(Real Time Bidding という広告システムの仕様書)の日本語訳を作成しました
