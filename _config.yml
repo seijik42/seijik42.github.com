@@ -13,9 +13,6 @@ tagline: Site Tagline
 author :
   name : Seiji Kasahara
   email : seijik42@gmail.com
-  github : username
-  twitter : username
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

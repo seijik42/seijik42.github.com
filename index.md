@@ -4,6 +4,8 @@ title: 笠原 誠司
 ---
 {% include JB/setup %}
 
+![](assets/images/face.png =150x)
+
 seijik42--at--gmail.com
 
 IT周りの技術とCGに興味があります。
@@ -13,7 +15,9 @@ IT周りの技術とCGに興味があります。
 **略歴**
 
 * 2013/8 - current:  広告商品の開発@株式会社ミクシィ・マーケティング
+    * DSPシステム「Vantage」の広告配信エンジンの開発に取り組みました
 * 2012/4 - 2013/8 :  広告商品の開発@株式会社ミクシィ
+    * ソーシャルデータを解析し、ユーザーの興味がある分野を推定して広告のターゲティング配信を行うシステムの開発をしました
 * 2012/3          :  奈良先端科学技術大学院大学／情報科学研究科  博士前期課程修了(工学)
     * 修士論文テーマ : 日本語学習支援のための自動誤り訂正
     * 指導教員: 松本裕治
@@ -30,19 +34,46 @@ IT周りの技術とCGに興味があります。
 
 【Digital Art】
 
-* 主にフォトリアリスティックな画像・映像を目指しています
 * [CGHUB上のギャラリー](http://seijik42.cghub.com/images/)
+* 主にフォトリアリスティックな画像・映像を目指しています
 * 使用ソフト : Zbrush, blenderなど
 * 備忘録を[tumblr](http://seijik42.tumblr.com/)にまとめています
 
 【Traditional Art】
 
+* [deviantART上のギャラリー](http://seijik42.deviantart.com/gallery/)
 * デッサンや油絵を書いています
 
 【英語学習】
 
 * TOEIC
     * 独学でTOEIC900点を取得しました
+    * 勉強法を[mixiページ](http://p.mixi.jp/toeic900)にまとめました
+
+【スマートフォンアプリ】
+
+* 美しさにこだわった恐竜図鑑アプリ [DinoEpic](https://itunes.apple.com/ca/app/dino-epic/id725400494?mt=8)
+
+----
+
+**スキル**
+
+* プログラミング言語(経験の長い順):
+    * Python
+    * Perl
+    * JavaScript
+    * C#
+    * Ruby
+* 技術スキル
+    * HTML/CSS
+    * AWSによるインフラ構築・運用
+    * Unity
+    * Webサービスのシステム設計
+* CG
+    * Zbrush
+    * blender
+    * Photoshop
+    * AfterEffects
 
 ----
 
