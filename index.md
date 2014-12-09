@@ -65,6 +65,7 @@ IT周りの技術とCGに興味があります。
     * Perl
     * JavaScript
     * C#
+    * PHP
     * Ruby
 * 技術スキル
     * HTML/CSS
