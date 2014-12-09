@@ -44,6 +44,7 @@ IT周りの技術とCGに興味があります。
 
 * [deviantART上のギャラリー](http://seijik42.deviantart.com/gallery/)
 * デッサンや油絵を書いています
+* [HumanAnatomyStudy](art/anatomy/)
 
 【英語学習】
 

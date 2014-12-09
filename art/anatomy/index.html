@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HumanAnatomyStudy(2014)</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/art/anatomy/index.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="starter-template">
+        <h1>Human Anatomy Study</h1>
+        <img id="image" class="img-responsive img-rounded">
+        <br/>
+        <p>
+          <button type="button" class="layer btn btn-primary btn-lg">Bone</button>
+          <button type="button" class="layer btn btn-primary btn-lg">Deep</button>
+          <button type="button" class="layer btn btn-primary btn-lg">Middle</button>
+          <button type="button" class="layer btn btn-primary btn-lg">Surface</button>
+        </p>
+        <p>
+          <button type="button" class="side btn btn-success btn-lg">Front</button>
+          <button type="button" class="side btn btn-success btn-lg">Back</button>
+          <button type="button" class="side btn btn-success btn-lg">Side</button>
+        </p>
+      </div>
+      <p class="lead">
+      <ul>
+        <li>Period: April 2014 - December 2014
+        <li>Material: Gouache, Ink, Kent paper
+        <li>Reference: Charles Bargue and Jean-Leon Gerome, Eliot Goldfinger, Skeletal model
+      </ul>
+      </p>
+
+    </div><!-- /.container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script>
+        var basePath = "../../assets/images/art/anatomy/";
+        var side = "Front";
+        var layer = "Surface";
+        var imageNames = {
+            Front: {
+                Bone: "bone_f.jpg",
+                Deep: "deep_f.jpg",
+                Middle: "middle_f.jpg",
+                Surface: "surface_f.jpg"
+            },
+            Back: {
+                Bone: "bone_b.jpg",
+                Deep: "deep_b.jpg",
+                Middle: "middle_b.jpg",
+                Surface: "surface_b.jpg"
+            },
+            Side: {
+                Bone: "bone_s.jpg",
+                Deep: "deep_s.jpg",
+                Middle: "middle_s.jpg",
+                Surface: "surface_s.jpg"
+            }
+        };
+
+        var updateImage = function(){
+            var path = basePath + imageNames[side][layer];
+            $("#image").attr("src", path);
+        };
+
+        updateImage();
+        $(".btn.side").click(function(){
+            console.log($(this).text());
+            $(".btn.side").removeClass('active')
+            $(this).addClass('active');
+            side = $(this).text();
+            updateImage();
+        });
+        $(".btn.layer").click(function(){
+            console.log($(this).text());
+            $(".btn.layer").removeClass('active')
+            $(this).addClass('active');
+            layer = $(this).text();
+            updateImage();
+        });
+
+    </script>
+  </body>
+</html>
+
