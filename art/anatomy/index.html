@@ -30,7 +30,17 @@
           <li>Reference: Charles Bargue and Jean-Leon Gerome, Eliot Goldfinger, Skeletal model
         </ul>
         </p>
-
+        <p>
+          <button type="button" class="layer btn btn-primary">Bone</button>
+          <button type="button" class="layer btn btn-primary">Deep</button>
+          <button type="button" class="layer btn btn-primary">Middle</button>
+          <button type="button" class="layer btn btn-primary">Surface</button>
+        </p>
+        <p class="side-buttons">
+          <button type="button" class="side btn btn-success">Front</button>
+          <button type="button" class="side btn btn-success">Back</button>
+          <button type="button" class="side btn btn-success">Side</button>
+        </p>
         <img display="none" id="bone_f" class="img-responsive" src="../../assets/images/art/anatomy/bone_f_trim.jpg" >
         <img display="none" id="bone_b" class="img-responsive" src="../../assets/images/art/anatomy/bone_b_trim.jpg" >
         <img display="none" id="bone_s" class="img-responsive" src="../../assets/images/art/anatomy/bone_s_trim.jpg" >
@@ -43,19 +53,10 @@
         <img display="none" id="surface_f" class="img-responsive" src="../../assets/images/art/anatomy/surface_f_trim.jpg" >
         <img display="none" id="surface_b" class="img-responsive" src="../../assets/images/art/anatomy/surface_b_trim.jpg" >
         <img display="none" id="surface_s" class="img-responsive" src="../../assets/images/art/anatomy/surface_s_trim.jpg" >
-        <p>
-          <button type="button" class="layer btn btn-primary">Bone</button>
-          <button type="button" class="layer btn btn-primary">Deep</button>
-          <button type="button" class="layer btn btn-primary">Middle</button>
-          <button type="button" class="layer btn btn-primary">Surface</button>
-        </p>
-        <p>
-          <button type="button" class="side btn btn-success">Front</button>
-          <button type="button" class="side btn btn-success">Back</button>
-          <button type="button" class="side btn btn-success">Side</button>
-        </p>
+
         <a href="/">seijik.com<a/>
 
+      </div><!-- /.starter-template -->
     </div><!-- /.container -->
 
     <script>
@@ -105,14 +106,12 @@
 
         updateImage();
         $(".btn.side").click(function(){
-            console.log($(this).text());
             $(".btn.side").removeClass('active')
             $(this).addClass('active');
             side = $(this).text();
             updateImage();
         });
         $(".btn.layer").click(function(){
-            console.log($(this).text());
             $(".btn.layer").removeClass('active')
             $(this).addClass('active');
             layer = $(this).text();

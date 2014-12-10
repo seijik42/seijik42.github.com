@@ -1,4 +1,12 @@
 .starter-template {
-  max-width:200%;
   text-align: center;
+}
+.starter-template .side-buttons{
+  margin-bottom: 0;
+}
+.starter-template img{
+  display: block;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
