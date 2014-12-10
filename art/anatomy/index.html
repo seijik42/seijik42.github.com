@@ -23,18 +23,29 @@
 
       <div class="starter-template">
         <h1>Human Anatomy Study</h1>
-        <img id="image" class="img-responsive img-rounded">
+        <img display="none" id="bone_f" class="img-responsive" src="../../assets/images/art/anatomy/bone_f.jpg" >
+        <img display="none" id="bone_b" class="img-responsive" src="../../assets/images/art/anatomy/bone_b.jpg" >
+        <img display="none" id="bone_s" class="img-responsive" src="../../assets/images/art/anatomy/bone_s.jpg" >
+        <img display="none" id="deep_f" class="img-responsive" src="../../assets/images/art/anatomy/deep_f.jpg" >
+        <img display="none" id="deep_b" class="img-responsive" src="../../assets/images/art/anatomy/deep_b.jpg" >
+        <img display="none" id="deep_s" class="img-responsive" src="../../assets/images/art/anatomy/deep_s.jpg" >
+        <img display="none" id="middle_f" class="img-responsive" src="../../assets/images/art/anatomy/middle_f.jpg" >
+        <img display="none" id="middle_b" class="img-responsive" src="../../assets/images/art/anatomy/middle_b.jpg" >
+        <img display="none" id="middle_s" class="img-responsive" src="../../assets/images/art/anatomy/middle_s.jpg" >
+        <img display="none" id="surface_f" class="img-responsive" src="../../assets/images/art/anatomy/surface_f.jpg" >
+        <img display="none" id="surface_b" class="img-responsive" src="../../assets/images/art/anatomy/surface_b.jpg" >
+        <img display="none" id="surface_s" class="img-responsive" src="../../assets/images/art/anatomy/surface_s.jpg" >
         <br/>
         <p>
-          <button type="button" class="layer btn btn-primary btn-lg">Bone</button>
-          <button type="button" class="layer btn btn-primary btn-lg">Deep</button>
-          <button type="button" class="layer btn btn-primary btn-lg">Middle</button>
-          <button type="button" class="layer btn btn-primary btn-lg">Surface</button>
+          <button type="button" class="layer btn btn-primary">Bone</button>
+          <button type="button" class="layer btn btn-primary">Deep</button>
+          <button type="button" class="layer btn btn-primary">Middle</button>
+          <button type="button" class="layer btn btn-primary">Surface</button>
         </p>
         <p>
-          <button type="button" class="side btn btn-success btn-lg">Front</button>
-          <button type="button" class="side btn btn-success btn-lg">Back</button>
-          <button type="button" class="side btn btn-success btn-lg">Side</button>
+          <button type="button" class="side btn btn-success">Front</button>
+          <button type="button" class="side btn btn-success">Back</button>
+          <button type="button" class="side btn btn-success">Side</button>
         </p>
       </div>
       <p class="lead">
@@ -65,33 +76,32 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
     <script>
-        var basePath = "../../assets/images/art/anatomy/";
         var side = "Front";
         var layer = "Surface";
         var imageNames = {
             Front: {
-                Bone: "bone_f.jpg",
-                Deep: "deep_f.jpg",
-                Middle: "middle_f.jpg",
-                Surface: "surface_f.jpg"
+                Bone: "bone_f",
+                Deep: "deep_f",
+                Middle: "middle_f",
+                Surface: "surface_f"
             },
             Back: {
-                Bone: "bone_b.jpg",
-                Deep: "deep_b.jpg",
-                Middle: "middle_b.jpg",
-                Surface: "surface_b.jpg"
+                Bone: "bone_b",
+                Deep: "deep_b",
+                Middle: "middle_b",
+                Surface: "surface_b"
             },
             Side: {
-                Bone: "bone_s.jpg",
-                Deep: "deep_s.jpg",
-                Middle: "middle_s.jpg",
-                Surface: "surface_s.jpg"
+                Bone: "bone_s",
+                Deep: "deep_s",
+                Middle: "middle_s",
+                Surface: "surface_s"
             }
         };
 
         var updateImage = function(){
-            var path = basePath + imageNames[side][layer];
-            $("#image").attr("src", path);
+            $(".img-responsive").hide();
+            $("#" + imageNames[side][layer]).show();
         };
 
         updateImage();
