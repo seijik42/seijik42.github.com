@@ -24,6 +24,7 @@ I'm interested in IT technologies and Computer graphics
 
 * July 2015 - current:  Software Engineer@Drivemode,inc.
     * Develop Android app and server side API
+    * Detect bottleneck of app and increase growth
 * April 2014 - June 2015: Software Engineer@istyle,inc.
     * Chief software engineer since Feb 2015
     * Led team of 3 to launch video ad service from scratch
@@ -43,7 +44,7 @@ I'm interested in IT technologies and Computer graphics
 **Current job summary**
 
 * Data analytics for app growth
-    * To maximize our app growth, I have been finding bottle-neck of retention rate and acquisition rate
+    * To maximize our app growth, I have been finding bottlenecks of retention rate and acquisition rate
     * Consolidate better matching metrics to measure app usage
     * Have been designing and implementing tools and frameworks needed to analyze app growth
 * Develop Android app
