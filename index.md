@@ -4,7 +4,7 @@ title: 笠原 誠司
 ---
 {% include JB/setup %}
 
-![](assets/images/face.png =150x)
+<img src="assets/images/face.png" width="150px">
 
 seijik42--at--gmail.com
 
