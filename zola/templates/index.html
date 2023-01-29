@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="title">
+        笠原 誠司 (Seiji Kasahara)
+    </h1>
+    <div>
+        <img class="face-photo" src="img/face.jpg"/>
+    </div>
+    <div>
+        <a class="fa-container" href="https://github.com/seijik42" target="_blank">
+            <i class="fa-brands fa-github fa-2x"></i>
+        </a>
+        <a class="fa-container" href="https://www.linkedin.com/in/kasahara-seiji/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+    </div>
+    {{ section.content | safe }}
+{% endblock content %}
